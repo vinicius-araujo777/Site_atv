@@ -6,16 +6,17 @@
 
 body {
   font-family: Arial, sans-serif;
-  background-color: #00255f;
+  background-color: #00102e;
 }
 
 .navbar {
   display: flex;
   justify-content: space-between;
   align-items: center;
-  background-color: #00255f;
-  padding: 15px 40px;
-  margin: 20px;
+  background-color: #00102e;
+  padding: 30px 40px 30px ;
+  width: 100%;
+  border-bottom: 1px solid rgba(95, 93, 93, 0.568);
 }
 
 .logo {
@@ -32,17 +33,13 @@ a{
   font-size: 20px;
 }
 
-#lin{
-  color: whitesmoke;
-}
-
 .navitens{
   margin-right: 400px;
 }
 
-.navitens2{
+.nav2{
   color: white;
-  padding: 170px;
+  padding: 160px;
   display: flex;
   flex-direction: column;
   align-items: center;
@@ -50,4 +47,32 @@ a{
 
 .itemnav2{
   font-size: 70px;
+}
+
+.nav3 {
+    color: white;
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.b1{
+    color: 1px solid #00102e ;
+    border: solid rgb(247, 214, 29);
+    background-color: rgb(247, 214, 29);
+    font-size: 15px;
+    height: 50px;
+    width: 180px;
+    margin-right: 25px;
+}
+
+.b2{
+    color: white;
+    background-color: #00102e;
+    border: 1px solid white;
+    font-size: 15px;
+    height: 50px;
+    width: 150px;
+    margin-top: 20px;
 }

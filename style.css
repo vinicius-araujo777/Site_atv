@@ -76,3 +76,26 @@ a{
     width: 150px;
     margin-top: 20px;
 }
+
+.blocos{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    gap: 50px;
+    padding: 180px;
+}
+
+.bl1{
+    height: 250px;
+    width: 330px;
+    border: 1px solid white;
+    margin-top: 20px;
+    background-color: white;
+}
+
+.conteudobloc{
+  text-align: left;
+  margin-left: 20px;
+  margin-top: 80px;
+  color: #00102e;
+}
